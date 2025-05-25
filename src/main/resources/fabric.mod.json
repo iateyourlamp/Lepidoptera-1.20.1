@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lepidoptera",
+	"version": "${version}",
+	"name": "Lepidoptera",
+	"description": "This is a mod dedicated to moths, it's also my first mod",
+	"authors": [
+		"iateyourlamp"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lepidoptera/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.iateyourlamp.lepidoptera.Lepidoptera"
+		],
+		"client": [
+			"net.iateyourlamp.lepidoptera.LepidopteraClient"
+		],
+		"fabric-datagen": [
+			"net.iateyourlamp.lepidoptera.LepidopteraDataGenerator"
+		]
+	},
+	"mixins": [
+		"lepidoptera.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
