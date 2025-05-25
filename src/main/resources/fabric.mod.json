@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.iateyourlamp.lepidoptera.Lepidoptera"
+			"com.iateyourlamp.lepidoptera.Lepidoptera"
 		],
 		"client": [
-			"net.iateyourlamp.lepidoptera.LepidopteraClient"
+			"com.iateyourlamp.lepidoptera.LepidopteraClient"
 		],
 		"fabric-datagen": [
-			"net.iateyourlamp.lepidoptera.LepidopteraDataGenerator"
+			"com.iateyourlamp.lepidoptera.LepidopteraDataGenerator"
 		]
 	},
 	"mixins": [

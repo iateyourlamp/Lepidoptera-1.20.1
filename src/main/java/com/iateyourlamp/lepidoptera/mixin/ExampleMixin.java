@@ -1,4 +1,4 @@
-package net.iateyourlamp.lepidoptera.mixin;
+package com.iateyourlamp.lepidoptera.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

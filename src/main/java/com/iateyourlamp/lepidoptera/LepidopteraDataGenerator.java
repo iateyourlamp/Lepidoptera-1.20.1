@@ -1,4 +1,4 @@
-package net.iateyourlamp.lepidoptera;
+package com.iateyourlamp.lepidoptera;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
